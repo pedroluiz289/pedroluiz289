@@ -3,10 +3,10 @@
 
 # Extensões
 
+- Atom One Dark Theme
+- Atom One Light Modern
 - Database Client JDBC
-- Discord Rich Presence
-- GitHub Theme
-- Language Support for Java(TM) by Red Hat
+- Language Support for Java (TM)
 - Live Server (Five Server)
 - MySQL
 - Portuguese (Brazil) Language Pack for Visual Studio Code
@@ -23,6 +23,7 @@
     "database-client.bindConnectionByActiveMark": false,
     "database-client.enableEditorCodeLens": false,
     "database-client.splitEditorWhenQuery": true,
+    "debug.terminal.clearBeforeReusing": true,
     "editor.fontSize": 20,
     "editor.fontFamily": "JetBrainsMono Nerd Font, monospace",
     "editor.wordWrap": "on",
@@ -37,8 +38,9 @@
     "editor.guides.indentation": false,
     "editor.guides.bracketPairsHorizontal": false,
     "editor.guides.highlightActiveBracketPair": false,
+    "editor.guides.bracketPairs": false,
     "editor.bracketPairColorization.enabled": false,
-    "editor.hover.enabled": false,
+    "editor.hover.enabled": "off",
     "editor.parameterHints.enabled": false,
     "editor.formatOnSave": false,
     "editor.overviewRulerBorder": false,
@@ -53,15 +55,22 @@
     "editor.accessibilitySupport": "off",
     "editor.find.cursorMoveOnType": false,
     "editor.showFoldingControls": "never",
+    "editor.snippets.codeActions.enabled": false,
+    "editor.scrollBeyondLastLine": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
     "explorer.openEditors.visible": 1,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmPasteNative": false,
     "explorer.confirmDelete": false,
     "explorer.compactFolders": false,
     "explorer.decorations.colors": false,
+    "explorer.autoReveal": false,
+    "explorer.decorations.badges": false,
     "files.autoSave": "afterDelay",
     "files.autoSaveWhenNoErrors": true,
     "files.autoSaveDelay": 250,
+    "fiveServer.injectBody": false,
     "git.decorations.enabled": false,
     "git.autofetch": true,
     "java.server.launchMode": "LightWeight",
@@ -69,24 +78,39 @@
     "java.inlayHints.parameterNames.enabled": "none",
     "java.signatureHelp.enabled": false,
     "java.completion.guessMethodArguments": "off",
+    "java.project.sourcePaths": [
+        "src",
+        "src/main/java",
+    ],
     "redhat.telemetry.enabled": false,
+    "scm.diffDecorations": "gutter",
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.enablePersistentSessions": false,
     "terminal.integrated.shellIntegration.decorationsEnabled": "never",
     "terminal.integrated.stickyScroll.enabled": false,
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.suggest.enabled": false,
+    "terminal.integrated.initialHint": false,
     "telemetry.feedback.enabled": false,
     "window.restoreWindows": "none",
     "window.commandCenter": false,
     "window.autoDetectColorScheme": true,
     "window.title": " ",
-    "window.menuBarVisibility": "compact",
+    "window.menuBarVisibility": "toggle",
+    "window.openFilesInNewWindow": "off",
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "vscode-icons",
     "workbench.tips.enabled": false,
     "workbench.tree.enableStickyScroll": false,
-    "workbench.preferredDarkColorTheme": "GitHub Dark",
-    "workbench.preferredLightColorTheme": "GitHub Light Default",
+    "workbench.preferredDarkColorTheme": "Atom One Dark",
+    "workbench.preferredLightColorTheme": "Atom One Light Modern",
     "workbench.layoutControl.enabled": false,
     "workbench.tree.renderIndentGuides": "always",
     "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.list.openMode": "doubleClick",
+    "workbench.colorCustomizations": {
+        "editorOverviewRuler.errorForeground": "#0000",
+        "editorOverviewRuler.warningForeground": "#0000",
+        "editorOverviewRuler.infoForeground": "#0000",
+    },
 }
