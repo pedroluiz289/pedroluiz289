@@ -1,12 +1,12 @@
 # Configurações que utilizo no Visual Studio Code
-# 07/05/26
+# 24/09/26
 
 # Extensões
 
 - Atom One Dark Theme
-- Atom One Light Modern
+- One Dark Pro Darker
 - Database Client JDBC
-- Language Support for Java (TM)
+- Extension Pack for Java
 - Live Server (Five Server)
 - MySQL
 - Portuguese (Brazil) Language Pack for Visual Studio Code
@@ -42,12 +42,13 @@
     "editor.hover.enabled": "off",
     "editor.parameterHints.enabled": false,
     "editor.formatOnSave": false,
+    "editor.formatOnType": false,
     "editor.overviewRulerBorder": false,
     "editor.hideCursorInOverviewRuler": true,
     "editor.folding": false,
     "editor.fontLigatures": true,
     "editor.letterSpacing": 0.4,
-    "editor.detectIndentation": true,
+    "editor.detectIndentation": false,
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.lineHeight": 1.7,
@@ -63,6 +64,12 @@
     //"editor.scrollbar.vertical": "hidden",
     "editor.fontSize": 20,
     "editor.cursorBlinking": "blink",
+    "editor.fontVariations": true,
+    "editor.formatOnPaste": false,
+    "editor.autoIndent": "full",
+    "editor.lightbulb.enabled": "off",
+    "editor.autoSurround": "languageDefined",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
     "explorer.openEditors.visible": 1,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmPasteNative": false,
@@ -96,6 +103,7 @@
     "terminal.integrated.suggest.enabled": false,
     "terminal.integrated.initialHint": false,
     "telemetry.feedback.enabled": false,
+    "vsicons.presets.hideExplorerArrows": true,
     "window.restoreWindows": "none",
     "window.commandCenter": false,
     "window.autoDetectColorScheme": true,
@@ -109,12 +117,19 @@
     "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
     "workbench.preferredLightColorTheme": "Atom One Light Modern",
     "workbench.layoutControl.enabled": false,
-    "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.renderIndentGuides": "none",
     "workbench.secondarySideBar.defaultVisibility": "hidden",
     "workbench.list.openMode": "doubleClick",
+    "workbench.tree.indent": 16,
+    "workbench.browser.showInTitleBar": false,
     "workbench.colorCustomizations": {
+        "editor.snippetFinalTabstopHighlightBackground": "#0000",
+        "editor.snippetTabstopHighlightBackground": "#0000",
+        "editor.snippetTabstopHighlightBorder": "#0000",
+        "editor.snippetFinalTabstopHighlightBorder": "#0000",
         "editorOverviewRuler.errorForeground": "#0000",
         "editorOverviewRuler.warningForeground": "#0000",
         "editorOverviewRuler.infoForeground": "#0000",
+        "editorGutter.modifiedBackground": "#367be3",
     },
 }
