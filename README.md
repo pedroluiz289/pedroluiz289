@@ -17,4 +17,5 @@
     <a href="https://www.mysql.com/" target="_blank" rel="external"><img src="images/mysql.webp" width="64px" alt="Icone do MySQL"></a>&nbsp;&nbsp;&nbsp;
     <a href="https://html.spec.whatwg.org/multipage/" target="_blank" rel="external"><img src="images/html5.webp" width="64px" alt="Icone do HTML"></a>&nbsp;&nbsp;&nbsp;
     <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank" rel="external"><img src="images/css.webp" width="64px" alt="Icone do CSS"></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://www.usebruno.com/" target="_blank" rel="external"><img src="images/bruno.webp" width="64px" alt="Icone do Bruno API"></a>&nbsp;&nbsp;&nbsp;
 </div>
